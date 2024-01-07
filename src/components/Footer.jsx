@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {
     FaFacebook,
@@ -15,11 +16,18 @@ const Footer = () => {
             <div>
                 <h6 className='font-bold uppercase pt-2'>Solutions</h6>
                 <ul>
-                    <li className='py-1'>Marketing</li>
-                    <li className='py-1'>Analytics</li>
-                    <li className='py-1'>Commerce</li>
-                    <li className='py-1'>Data</li>
-                    <li className='py-1'>Cloud</li>
+                   <Link to = "/marketing" target="_blank">
+                        <li className='py-1'>Marketing</li>
+                    </Link>
+                    <Link to = "/analytics" target="_blank">
+                        <li className='py-1'>Analytics</li>
+                    </Link>
+                    <Link to = "/data" target="_blank">
+                        <li className='py-1'>Data</li>
+                    </Link>
+                    <Link to = "/cloud" target="_blank">
+                        <li className='py-1'>Cloud</li>
+                    </Link>
                 </ul>
             </div>
             <div>
