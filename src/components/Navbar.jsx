@@ -20,7 +20,7 @@ const Navbar = () => {
           <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
           <li><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
           <li><Link to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
-          <li><Link to="platforms" smooth={true} offset={-100} duration={500}>Platforms</Link></li>
+          <li><Link to="services" smooth={true} offset={-100} duration={500}>Services</Link></li>
           <li><Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
           </ul>
         </div>
