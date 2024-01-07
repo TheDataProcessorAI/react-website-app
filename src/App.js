@@ -16,7 +16,6 @@ function App() {
       <About />
       <Support />
       <AllInOne />
-      <Pricing />
       <Element name="contact">
         <ContactForm />
       </Element>
