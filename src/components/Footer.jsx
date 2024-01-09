@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {ReactComponent as Logo} from '../assets/Untitled.svg';
 
 import {
     FaFacebook,
@@ -14,49 +15,35 @@ const Footer = () => {
     <div className='w-full mt-24 bg-slate-900 text-gray-300 py-y px-2'>
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
             <div>
-                <h6 className='font-bold uppercase pt-2'>Solutions</h6>
                 <ul>
-                   <Link to = "/marketing" target="_blank">
-                        <li className='py-1'>Marketing</li>
+                    <li className='py-1'><h6 className='font-bold uppercase pt-2'>Solutions</h6></li>
+                    <Link to = '/data-engineering' target='_blank'>
+                        <li className='py-1'>Data Engineering</li>
                     </Link>
                     <Link to = "/analytics" target="_blank">
-                        <li className='py-1'>Analytics</li>
+                        <li className='py-1'>Data Analytics</li>
                     </Link>
-                    <Link to = "/data" target="_blank">
-                        <li className='py-1'>Data</li>
+                    <Link to = "/generative-ai" target="_blank">
+                        <li className='py-1'>Generative AI</li>
                     </Link>
-                    <Link to = "/cloud" target="_blank">
-                        <li className='py-1'>Cloud</li>
+                    <Link to = "/data-science" target="_blank">
+                        <li className='py-1'>Data Science</li>
                     </Link>
                 </ul>
             </div>
             <div>
-                <h6 className='font-bold uppercase pt-2'>Support</h6>
                 <ul>
-                    <li className='py-1'>Pricing</li>
-                    <li className='py-1'>Documentation</li>
-                    <li className='py-1'>Guides</li>
-                    <li className='py-1'>API Status</li>
-                </ul>
-            </div>
-            <div>
-                <h6 className='font-bold uppercase pt-2'>Company</h6>
-                <ul>
-                    <li className='py-1'>About</li>
-                    <li className='py-1'>Blog</li>
-                    <li className='py-1'>Jobs</li>
-                    <li className='py-1'>Press</li>
-                    <li className='py-1'>Partners</li>
-                </ul>
-            </div>
-            <div>
-                <h6 className='font-bold uppercase pt-2'>Legal</h6>
-                <ul>
-                    <li className='py-1'>Claims</li>
-                    <li className='py-1'>Privacy</li>
-                    <li className='py-1'>Terms</li>
-                    <li className='py-1'>Policies</li>
-                    <li className='py-1'>Conditions</li>
+                    <li className='py-1'><h6 className='font-bold uppercase pt-2'>Company</h6></li>
+                    <Link to="/about">
+                        <li className='py-1'>About</li>
+                    </Link>
+
+                    <Link to="https://thedataprocessor.hashnode.dev/">
+                        <li className='py-1'>Blog</li>
+                    </Link>
+                    <Link to="/contact">
+                        <li className='py-1'>Jobs</li>
+                    </Link>
                 </ul>
             </div>
             <div className='col-span-2 pt-8 md:pt-2'>
@@ -66,6 +53,11 @@ const Footer = () => {
                     <input className='w-full p-2 mr-4 rounded-md mb-4' type="email" placeholder='Enter email..'/>
                     <button className='p-2 mb-4'>Subscribe</button>
                 </form>
+            </div>
+            <div>
+                <ul >
+                    <Logo className='scale-50 -mt-50 w-50'/>
+                </ul>
             </div>
         </div>
 
