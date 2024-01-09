@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CheckIcon } from '@heroicons/react/outline';
+
 
 const AllInOne = () => {
   return (
