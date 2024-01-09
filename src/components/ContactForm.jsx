@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+
 
 const ContactForm = () => {
   
 
   const fillColor = 'currentColor';
-
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
 
 
   return (   
