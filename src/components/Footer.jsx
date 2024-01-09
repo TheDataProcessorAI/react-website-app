@@ -16,7 +16,7 @@ const Footer = () => {
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
             <div>
                 <ul>
-                    <li className='py-1'><h6 className='font-bold uppercase pt-2'>Solutions</h6></li>
+                    <li className='py-1'><h6 className='font-bold uppercase pt-2 my-20'>Solutions</h6></li>
                     <Link to = '/data-engineering' target='_blank'>
                         <li className='py-1'>Data Engineering</li>
                     </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <div>
                 <ul>
-                    <li className='py-1'><h6 className='font-bold uppercase pt-2'>Company</h6></li>
+                    <li className='py-1'><h6 className='font-bold uppercase pt-2 my-20'>Company</h6></li>
                     <Link to="/about">
                         <li className='py-1'>About</li>
                     </Link>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='col-span-2 pt-8 md:pt-2'>
-                <p className='font-bold uppercase'>Subscribe to our newsletter</p>
+                <p className='font-bold uppercase my-20'>Subscribe to our newsletter</p>
                 <p className='py-4'>The latest news, articles, and resources, sent to your inbox weekly.</p>
                 <form className='flex flex-col sm:flex-row'>
                     <input className='w-full p-2 mr-4 rounded-md mb-4' type="email" placeholder='Enter email..'/>
