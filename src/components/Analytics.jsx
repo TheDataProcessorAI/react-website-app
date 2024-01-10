@@ -1,6 +1,8 @@
 import React from "react";
 import Lottie from "react-lottie";
 import * as animationData from "../assets/data_analytics.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default class Analytics extends React.Component {
    
@@ -30,16 +32,33 @@ export default class Analytics extends React.Component {
             <div className="flex-row align-middle justify-center font-roboto">
                 <div className="py-5 text-left text-gray-600 text-xl w-90">
                     <p className="py-2">
-                        Revolutionize your business with our advanced data analytics solutions. Benefit from predictive modeling, visualization, and machine learning for actionable insights. Seamlessly integrate our user-friendly tools, simplifying complex data. Stay agile and scalable while optimizing operations. Elevate your strategy with accurate analysis for strategic growth. Experience the power of data today.
+                        Revolutionize your business with our advanced data analytics solutions. Experience the power of data today.
                     </p>
+                    <div className="py-5 text-left text-gray-600 text-xl w-90">
+                    <h2 className="text-indigo-600 text-2xl font-bold mb-3">Our Offerings :</h2>
+                    <ul className="list-disc pl-5 text-base">
+                            <li className="py-1 flex items-center">
+                                <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                                Benefit from predictive modeling, visualization, and machine learning for actionable insights.
+                            </li>
+                            <li className="py-1 flex items-center">
+                                <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                                Seamlessly integrate our user-friendly tools, simplifying complex data.
+                            </li>
+                            <li className="py-1 flex items-center">
+                                <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                                Unify the best of data warehouses and data lakes in one simple platform to handle all your data, analytics, machine learning and AI use cases.
+                            </li>
+                            <li className="py-1 flex items-center">
+                                <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                                Stay agile and scalable while optimizing operations. Elevate your strategy with accurate analysis for strategic growth.
+                            </li>
+                        </ul>
+                    </div>
+    
+            
                     <p className="py-2">
-                        Transform your business with our advanced data analytics solutions. Benefit from predictive modeling, visualization, and machine learning for actionable insights.
-                    </p>
-                    <p className="py-2">
-                        Seamlessly integrate our user-friendly tools, simplifying complex data and staying agile and scalable.
-                    </p>
-                    <p className="py-2">
-                        Elevate your strategy with accurate analysis, optimizing operations for strategic growth. Experience the power of data.
+                    After decades immersed in the world of Business Intelligence and Data Analytics, our team has witnessed the evolution of data trends across various industries. Rely on our seasoned expertise to craft innovative data and AI solutions, ensuring you receive top-notch outcomes tailored to your specific needs. Elevate your strategic approach with precise analysis, optimizing operations for sustainable growth. Witness the transformative power of data as we work together to drive success across your business.
                     </p>
                 </div>
                 <div></div>
