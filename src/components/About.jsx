@@ -5,7 +5,7 @@ const About = () => {
     <div name='about' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center'>
-                <h2 className='text-5xl font-bold'>Valued by clients worldwide, our reputation stands strong as a trusted partner</h2>
+                <h2 className='text-5xl font-bold'>Valued by clients worldwide, our reputation stands strong as a trusted partner.</h2>
                 <p className='text-3xl py-6 text-gray-500'></p>
             </div>
 
