@@ -1,6 +1,4 @@
 import React from "react";
-import Lottie from "react-lottie";
-import * as animationData from "../assets/data_engg.json";
 import {ReactComponent as Icons} from "../assets/logo_diagram.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
@@ -14,17 +12,6 @@ export default class DataEngineering extends React.Component {
     }
 
     render() {
-
-        const defaultOptions = {
-            loop: true,
-            autoplay: true, 
-            animationData: animationData,
-            rendererSettings: {
-              preserveAspectRatio: 'xMidYMid slice'
-            }
-        };
-      
-
 
         return (
             <div className="mt-24 px-4 justify-center items-center text-left flex">
@@ -72,14 +59,7 @@ export default class DataEngineering extends React.Component {
                         <div><Icons/></div>
                     </div>             
                 </div>
-                    {/* Add your image component here */}
-                    {/* <div>
-                        <Lottie options={defaultOptions}
-                                height={400}
-                                width={400}
-                                isStopped={this.state.isStopped}
-                                isPaused={this.state.isPaused}/>
-                    </div> */}
+                  
                 </div>
                 
                 
