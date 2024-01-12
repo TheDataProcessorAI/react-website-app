@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
           <Link to="/">
-          <h1 className='text-indigo-600 text-3xl font-bold mr-4 sm:text-4xl'>Data Proc AI.</h1>
+          <h1 className='text-indigo-600 text-3xl font-bold mr-4 sm:text-4xl'>The Data Processor AI.</h1>
           </Link>
           <ul className='hidden md:flex'>
           <li><Link to="/" smooth={true} duration={500}>Home</Link></li>
