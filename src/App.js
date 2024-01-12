@@ -42,9 +42,9 @@ const Home = () => (
     <>
       <Hero />
       <UseCase />
-      <About />
-      <Support />
       <AllInOne />
+      <Support />
+      <About />
       <Element name="contact">
         <ContactForm />
       </Element>
