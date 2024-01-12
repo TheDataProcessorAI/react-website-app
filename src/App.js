@@ -6,12 +6,12 @@ import Navbar from './components/Navbar'
 import Support from './components/Support'
 import ContactForm from './components/ContactForm';
 import { Element } from 'react-scroll';
-import Marketing from './components/Marketing';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Analytics from './components/Analytics';
 import DataEngineering from './components/DataEngineering';
 import DataScience from './components/DataScience';
 import Generative from './components/Generative';
+import UseCase from './components/UseCase';
 
 function App() {
   return (
@@ -22,12 +22,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/data-engineering" element={<DataEngineering />} />
           <Route path="/data-science" element={<DataScience />} />
-          <Route path="/marketing" element={<Marketing />} />
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
           <Route path="/services" element={<AllInOne />} />
           <Route path="/generative-ai" element = {<Generative />} />
           <Route path="/contact" element= {<ContactForm/>} />
+          <Route path="/usecase" element={<UseCase />} />
           {/* Other routes */}
           {/* ... */}
           <Route path = "/analytics" element={<Analytics />} />
@@ -41,6 +41,7 @@ function App() {
 const Home = () => (
     <>
       <Hero />
+      <UseCase />
       <About />
       <Support />
       <AllInOne />

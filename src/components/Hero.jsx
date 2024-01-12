@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {
     CloudUploadIcon,
     DatabaseIcon,
@@ -16,7 +17,9 @@ const Hero = () => {
                 <p className='text-2xl'>Let Data Drive Your Growth</p>
                 <h1 className='py-3 text-5xl md:text-7xl font-bold'>The Data Processor AI</h1>
                 <p className='text-2xl'></p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
+                <Link to="contact">
+                    <button className='py-3 px-6 sm:w-[100%] my-4'>Get Started</button>
+                </Link>
             </div>
             <div>
                 <img className='w-full' src={bgImg} alt="/" />
