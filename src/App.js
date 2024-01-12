@@ -6,7 +6,6 @@ import Navbar from './components/Navbar'
 import Support from './components/Support'
 import ContactForm from './components/ContactForm';
 import { Element } from 'react-scroll';
-import Marketing from './components/Marketing';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Analytics from './components/Analytics';
 import DataEngineering from './components/DataEngineering';
@@ -22,7 +21,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/data-engineering" element={<DataEngineering />} />
           <Route path="/data-science" element={<DataScience />} />
-          <Route path="/marketing" element={<Marketing />} />
           <Route path="/about" element={<About />} />
           <Route path="/support" element={<Support />} />
           <Route path="/services" element={<AllInOne />} />
