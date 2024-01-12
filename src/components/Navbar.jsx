@@ -11,7 +11,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     const handleClose =()=> setNav(false)
-
+    
   return (
     <div className='w-screen h-[80px] z-10 bg-zinc-200 top-0 fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
