@@ -11,6 +11,7 @@ import Analytics from './components/Analytics';
 import DataEngineering from './components/DataEngineering';
 import DataScience from './components/DataScience';
 import Generative from './components/Generative';
+import UseCase from './components/UseCase';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/services" element={<AllInOne />} />
           <Route path="/generative-ai" element = {<Generative />} />
           <Route path="/contact" element= {<ContactForm/>} />
+          <Route path="/usecase" element={<UseCase />} />
           {/* Other routes */}
           {/* ... */}
           <Route path = "/analytics" element={<Analytics />} />
@@ -39,6 +41,7 @@ function App() {
 const Home = () => (
     <>
       <Hero />
+      <UseCase />
       <About />
       <Support />
       <AllInOne />
