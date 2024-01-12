@@ -24,7 +24,7 @@ const Navbar = () => {
           <li><Link to="usecase" smooth={true} duration={500}>Use Cases</Link></li>
           <li><Link to="services" smooth={true} offset={-200} duration={500}>Services</Link></li>
           <li><Link to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
-          <li><Link to="about" smooth={true} offset={-100} duration={500}>About</Link></li>
+          <li><Link to="about" smooth={true} offset={-100} duration={500}>Our Company</Link></li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
@@ -41,9 +41,9 @@ const Navbar = () => {
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="/" smooth={true} duration={500}>Home</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="/" smooth={true} duration={500}>Use Cases</Link></li>
-          <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
-          <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
           <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="services" smooth={true} offset={-100} duration={500}>Services</Link></li>
+          <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
+          <li className='border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="about" smooth={true} offset={-200} duration={500}>Our Company</Link></li>
        </ul>
     </div>
   );
