@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 
 const AllInOne = () => {
@@ -20,8 +22,26 @@ const AllInOne = () => {
                 <h3 className='text-indigo-600 font-bold text-lg'>Data Engineering</h3>
               </Link>
               <p className='text-lg pt-2 pb-4'>
-              Transform your business with cutting-edge data engineering solutions. 
-              Our skilled team optimizes data pipelines, integrates systems, and ensures data quality for unparalleled insights. 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Advanced Data Pipeline Optimization.
+              </li>
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  System Integration Expertise.
+              </li>
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Data modeling
+              </li>
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Data Quality Assurance.
+              </li>
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Unparalleled Insights for Informed Decision-Making.
+              </li> 
               </p>
             </div>
           </div>
@@ -32,7 +52,22 @@ const AllInOne = () => {
               <h3 className='text-indigo-600 font-bold text-lg'>Generative AI</h3>
             </Link>
               <p className='text-lg pt-2 pb-4'>
-              Elevate your projects with groundbreaking Generative AI solutions. Our expert team crafts bespoke AI models for custom model development tailored to specific use cases and business requirements, optimization, and innovation.
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Tailored Generative AI Models.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Custom Model Development Expertise.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Optimization for Enhanced Performance.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Innovation at the Core.
+              </li> 
               </p>
             </div>
           </div>
@@ -43,7 +78,22 @@ const AllInOne = () => {
                <h3 className='text-indigo-600 font-bold text-lg'>Data Analytics</h3>
               </Link>
               <p className='text-lg pt-2 pb-4'>
-               Unlock the power of your data with our comprehensive analytics services. Gain actionable insights, predictive models, and data-driven strategies for enhanced decision-making. Maximize potential, drive growth
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Comprehensive Analytics Services.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Actionable Insights and Predictive Models.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Data-Driven Strategies for Growth.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Dashboard Development.
+              </li> 
               </p>
             </div>
           </div>
@@ -54,7 +104,23 @@ const AllInOne = () => {
               <h3 className='text-indigo-600 font-bold text-lg'>Data Science and AI solutions</h3>
             </Link>
               <p className='text-lg pt-2 pb-4'>
-              Empower your business with our data science services, crafting robust data strategies and deploying advanced ML and AI techniques. We unlock hidden insights, define measurable success for complex goals, and leverage data-driven frameworks for impactful analytics initiatives. </p>
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Strategic Data Science Services.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Advanced ML and AI Deployment.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Measurable Success for Complex Goals.
+              </li> 
+              <li className="py-1 flex items-center">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                  Data-Driven Frameworks for Impactful Analytics.
+              </li>
+              </p> 
             </div>
           </div>
         </div>

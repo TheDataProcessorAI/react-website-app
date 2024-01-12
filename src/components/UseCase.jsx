@@ -3,6 +3,8 @@ import Lottie from "react-lottie";
 import * as animationDataTpo from '../assets/tpo.json';
 import * as animationDataGrowth from '../assets/growth.json';
 import * as animationDataAnalytics from '../assets/analytics.json';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default class UseCase extends React.Component{
     // Component logic goes here
@@ -70,7 +72,18 @@ export default class UseCase extends React.Component{
                     </div>
                     <h3 className='text-indigo-600 font-bold text-lg'>Trade Promo Optimization</h3>
                     <p className='text-lg pt-2 pb-4 w-250'>
-                        To optimize trade promotions, businesses can leverage data-driven processes to effectively manage promotional budgets, assess the impact of promotional efforts, and plan promotional activities. By analyzing historical data, market trends, and other relevant factors, trade promo optimization enables global enterprises to make informed decisions about promotional strategies, maximize return on investment, and drive sales growth. 
+                        <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Data-Driven Budget Management.
+                        </li>
+                        <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Impact Assessment of Promotional Efforts.
+                        </li>
+                        <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Informed Planning of Promotional Activities.
+                        </li>  
                     </p>
                 </div>
                 </div>
@@ -90,7 +103,18 @@ export default class UseCase extends React.Component{
                     </div>
                     <h3 className='text-indigo-600 font-bold text-lg'>Demand Forecasting</h3>
                     <p className='text-lg pt-2 pb-4'>
-                        Demand forecasting is a process that involves estimating the future demand for a product or service. It helps businesses make informed decisions about production, inventory management, and resource allocation. By analyzing historical data, market trends, and other relevant factors, demand forecasting enables businesses to anticipate customer demand and plan their operations accordingly.
+                    <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Estimating Future Demand.
+                        </li>
+                        <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Informed Decision-Making for Operations.
+                        </li>
+                        <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Anticipating Customer Demand.
+                        </li>
                     </p>
                 </div>
                 </div>
@@ -110,7 +134,18 @@ export default class UseCase extends React.Component{
                     </div>
                     <h3 className='text-indigo-600 font-bold text-lg'>Retail Analytics</h3>
                     <p className='text-lg pt-2 pb-4'>
-                    Retail analytics is the process of providing analytical data on inventory levels, supply chain movement, consumer demand, sales, etc. that are crucial for making marketing, and procurement decisions. The analytics on supply chain movement and consumer demand help retailers make smarter decisions on how to optimize the supply chain and stocking of inventory, and the analytics on consumer demand can be used for optimizing pricing or markdown decisions, store layout, and product promotions.
+                    <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Insights into Inventory and Supply Chain.
+                        </li>
+                        <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Data-Driven Marketing and Procurement.
+                        </li>
+                        <li className="py-1 flex items-center">
+                            <FontAwesomeIcon icon={faCheckCircle} className="text-purple-600 mr-2" />
+                            Optimizing Pricing, Layout, and Promotions.
+                        </li>
                     </p>
                 </div>
                 </div>
